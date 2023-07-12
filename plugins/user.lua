@@ -10,5 +10,6 @@ return {
   --   end,
   -- },
   --
-  { 'rose-pine/neovim', name = 'rose-pine' }
+  { 'rose-pine/neovim', name = 'rose-pine' },
+  { 'folke/tokyonight.nvim', name = 'tokyonight' }
 }
