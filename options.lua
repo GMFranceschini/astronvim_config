@@ -7,8 +7,15 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    conceallevel= 1 
   },
   g = {
+    
+
+    tex_flavor = "latex",
+    tex_conceal='abdmg',
+    vimtex_view_method='zathura',
+    vimtex_quickfix_mode=0,
     mapleader = " ", -- sets vim.g.mapleader
     autoformat_enabled = true, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
     cmp_enabled = true, -- enable completion at start
